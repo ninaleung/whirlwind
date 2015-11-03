@@ -11,4 +11,9 @@ acct_info = []
   acct_info << person
 end
 
-p acct_info
+acct_info.each do |person|
+  puts "FIRST NAME: " + person[:first_name]
+  puts "LAST NAME: " + person[:last_name]
+  puts "EMAIL: " + person[:e_addy]
+  puts "ACCT #: " + person[:acct_num].to_s
+end
