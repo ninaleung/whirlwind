@@ -5,8 +5,11 @@ puts "Please enter your five favorite foods:"
   foods << gets.chomp
 end
 
+count = 1
+
 foods.each do |food|
-  puts "I love #{food}"
+  puts count.to_s + ". #{food}"
+  count += 1
 end
 
 
