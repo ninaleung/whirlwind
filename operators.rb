@@ -7,9 +7,10 @@ end
 
 #if answer != 5
 #"If answer does not equal 5"
+# Do somtething as long as answer does not equal 5 (any number other than 5)
 
 
-#if result != true
+#if result != true    
 #replace with unless result == true
 #yes, should run the same
 
@@ -28,17 +29,12 @@ end
 #   puts 'goodbye'
 # end
 
-
-
-
 # result = false
 
 # unless result
 #   puts 'HELLO!'
 # end
 
-#result has to be false
+# result = nil
 
-
-
-
+#result has to be false or nil
